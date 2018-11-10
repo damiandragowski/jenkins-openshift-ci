@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Route
+metadata:
+  name: DEPLOYNAME
+  namespace: my-project
+spec:
+  host: DEPLOYNAME.app.osft
+  to:
+    kind: Service
+    name: DEPLOYNAME
+    weight: 100
+  wildcardPolicy: None

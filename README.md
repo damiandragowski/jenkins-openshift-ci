@@ -1,2 +1,4 @@
 # jenkins-openshift-ci
-CI configuration for Jenkins with Openshift
+My CI configuration for Jenkins with Openshift
+
+More info: https://fedidat.com/560-jenkinsfile-openshift

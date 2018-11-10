@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: DEPLOYNAME
+  namespace: my-group
+spec:
+  selector:
+    app: DEPLOYNAME
+  ports:
+  - protocol: TCP
+    port: 8083
